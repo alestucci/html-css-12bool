@@ -1,12 +1,13 @@
 .row {
     min-height: 2.5em;
+    margin: 0;
 }
 
 [class*="col-"] {
     background-color: blue;
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid white;
     line-height: 2em;
     vertical-align: middle;
@@ -15,4 +16,73 @@
 [class*="col-"] [class*="col-"] {
     background-color: lightgreen;
     border: 1px solid blue;
+}
+
+.just-start {
+    justify-content: start;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.just-end {
+    justify-content: end;
+}
+
+.big {
+    height: 5em;
+}
+
+.small {
+    height: 2.5em;
+}
+
+.align-top {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-bottom {
+    align-items: flex-end;
+}
+
+.just-around {
+    justify-content: space-around;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-brown {
+    background-color: #783f04;
+}
+
+.bg-orange {
+    background-color: #ff9900;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.super-mario .row {
+    height: calc(100vw / 12);
+    max-height: calc(1170px / 12);
 }

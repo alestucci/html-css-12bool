@@ -12,143 +12,160 @@
 </head>
 <body>
     <div class="container">
-        <h2>Esercizio per casa</h2>
+        <h2>Nested</h2>
         <div class="row">
-            <div class="col-1">1 col</div>
-            <div class="col-1">1 col</div>
-            <div class="col-1">1 col</div>
-            <div class="col-1">1 col</div>
-            <div class="col-1">1 col</div>
-            <div class="col-1">1 col</div>
-            <div class="col-1">1 col</div>
-            <div class="col-1">1 col</div>
-            <div class="col-1">1 col</div>
-            <div class="col-1">1 col</div>
-            <div class="col-1">1 col</div>
-            <div class="col-1">1 col</div>
+            <div class="col-7">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6"></div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col-6"></div>
+                </div>
+            </div>
         </div>
 
-        <div class="row">
-            <div class="col-2">col</div>
-            <div class="col-5">col</div>
-            <div class="col-5">col</div>
+        <h2>Alignment</h2>
+        <div class="row just-start">
+            <div class="col-6">start</div>
+        </div>
+        <div class="row just-center">
+            <div class="col-6">center</div>
+        </div>
+        <div class="row just-end">
+            <div class="col-6">end</div>
+        </div>
+        <div class="row align-top">
+            <div class="col-6 big"></div>
+            <div class="col-6 small">top</div>
+        </div>
+        <div class="row align-center">
+            <div class="col-6 big"></div>
+            <div class="col-6 small">center</div>
+        </div>
+        <div class="row align-bottom">
+            <div class="col-6 big"></div>
+            <div class="col-6 small">bottom</div>
         </div>
 
+        <h2>Justify Content</h2>
+        <h3>Space Around</h3>
         <div class="row">
-            <div class="col-12">12 col</div>
-        </div>
-
-        <div class="row">
-            <div class="col-8">8 col</div>
-            <div class="col-2">2 col</div>
-            <div class="col-2">2 col</div>
+            <div class="col-12">
+                <div class="row just-around">
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
         </div>
         
+        <h3>Space Between</h3>
         <div class="row">
-            <div class="col-1">1 col</div>
-            <div class="col-2">2 col</div>
-            <div class="col-2">2 col</div>
-            <div class="col-6">6 col</div>
-            <div class="col-1">1 col</div>
-        </div>
-
-        <div class="row">
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-2">Nested 2 col</div>
-                    <div class="col-2">Nested 2 col</div>
-                    <div class="col-8">Nested 8 col</div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-6">Nested 6 col</div>
-                    <div class="col-6">Nested 6 col</div>
+            <div class="col-12">
+                <div class="row just-between">
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
+                    <div class="col-2"></div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col 11"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-10"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-9"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-4"></div>
-            <div class="col-8"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-6"></div>
-            <div class="col-6"></div>
-        </div>
-
-        <h2>Offset</h2>
-
-        <div class="row">
-            <div class="col-offset-11 col-1"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-offset-10 col-2"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-offset-9 col-3"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-offset-8 col-4"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-offset-7 col-5"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-offset-6 col-6"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-offset-5 col-7"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-offset-4 col-8"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-offset-3 col-9"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-offset-2 col-10"></div>
-        </div>
-
-        <div class="row">
-            <div class="col-offset-1 col-11"></div>
-        </div>
-
-
+        <section class="super-mario">
+            <h2>Super Mario</h2>
+            <div class="row">
+                <div class="col-offset-3 col-5 bg-red"></div>
+            </div>
+            <div class="row">
+                <div class="col-offset-2 col-9 bg-red"></div>
+            </div>
+            <div class="row">
+                <div class="col-offset-2 col-3 bg-brown"></div>
+                <div class="col-2 bg-orange"></div>
+                <div class="col-1 bg-black"></div>
+                <div class="col-1 bg-orange"></div>
+            </div>
+            <div class="row">
+                <div class="col-offset-1 col-1 bg-brown"></div>
+                <div class="col-1 bg-orange"></div>
+                <div class="col-1 bg-brown"></div>
+                <div class="col-3 bg-orange"></div>
+                <div class="col-1 bg-black"></div>
+                <div class="col-3 bg-orange"></div>
+            </div>
+            <div class="row">
+                <div class="col-offset-1 col-1 bg-brown"></div>
+                <div class="col-1 bg-orange"></div>
+                <div class="col-2 bg-brown"></div>
+                <div class="col-3 bg-orange"></div>
+                <div class="col-1 bg-black"></div>
+                <div class="col-3 bg-orange"></div>
+            </div>
+            <div class="row">
+                <div class="col-offset-2 col-1 bg-brown"></div>
+                <div class="col-4 bg-orange"></div>
+                <div class="col-4 bg-black"></div>
+            </div>
+            <div class="row">
+                <div class="col-offset-3 col-6 bg-orange"></div>
+            </div>
+            <div class="row">
+                <div class="col-offset-2 col-2 bg-red"></div>
+                <div class="col-1 bg-blue"></div>
+                <div class="col-2 bg-red"></div>
+                <div class="col-1 bg-blue"></div>
+                <div class="col-2 bg-red"></div>
+            </div>
+            <div class="row">
+                <div class="col-offset-1 col-3 bg-red"></div>
+                <div class="col-1 bg-blue"></div>
+                <div class="col-2 bg-red"></div>
+                <div class="col-1 bg-blue"></div>
+                <div class="col-3 bg-red"></div>
+            </div>
+            <div class="row">
+                <div class="col-4 bg-red"></div>
+                <div class="col-4 bg-blue"></div>
+                <div class="col-4 bg-red"></div>
+            </div>
+            <div class="row">
+                <div class="col-2 bg-orange"></div>
+                <div class="col-1 bg-red"></div>
+                <div class="col-1 bg-blue"></div>
+                <div class="col-1 bg-orange"></div>
+                <div class="col-2 bg-blue"></div>
+                <div class="col-1 bg-orange"></div>
+                <div class="col-1 bg-blue"></div>
+                <div class="col-1 bg-red"></div>
+                <div class="col-2 bg-orange"></div>
+            </div>
+            <div class="row">
+                <div class="col-3 bg-orange"></div>
+                <div class="col-6 bg-blue"></div>
+                <div class="col-3 bg-orange"></div>
+            </div>
+            <div class="row">
+                <div class="col-2 bg-orange"></div>
+                <div class="col-8 bg-blue"></div>
+                <div class="col-2 bg-orange"></div>
+            </div>
+            <div class="row">
+                <div class="col-offset-2 col-3 bg-blue"></div>
+                <div class="col-offset-2 col-3 bg-blue"></div>
+            </div>
+            <div class="row">
+                <div class="col-offset-1 col-3 bg-brown"></div>
+                <div class="col-offset-4 col-3 bg-brown"></div>
+            </div>
+            <div class="row">
+                <div class="col-4 bg-brown"></div>
+                <div class="col-offset-4 col-4 bg-brown"></div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
